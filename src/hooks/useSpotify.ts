@@ -30,7 +30,7 @@ interface UseSpotifyReturn {
   error: string | null;
 }
 
-const LOCAL_STORAGE_KEY = 'sahilcodex_last_played_song';
+const LOCAL_STORAGE_KEY = 'rahul_aitla_last_played_song';
 
 export function useSpotify(): UseSpotifyReturn {
   const [data, setData] = useState<SpotifyTrack | null>(null);

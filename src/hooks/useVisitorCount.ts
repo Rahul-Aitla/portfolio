@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 
 const BASE_URL = 'https://page-views-api.ratneshc.com/api/v1';
-const SITE = 'sahilcodex.vercel.app';
+const SITE = 'rahul-aitla.vercel.app';
 const PATH = 'all_pages';
-const BASE_VISITORS = 613;
+const BASE_VISITORS = 0;
 
 export const useVisitorCount = (): number | null => {
   const [count, setCount] = useState<number | null>(null);

@@ -21,49 +21,49 @@ const pixelifySans = Pixelify_Sans({
   display: 'swap',
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sahilcodex.vercel.app';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rahul-aitla.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Sahil | Portfolio',
-    template: '%s | Sahil',
+    default: 'Rahul Aitla | Portfolio',
+    template: '%s | Rahul Aitla',
   },
-  description: 'Web developer portfolio, showing blogs, experience, and custom tools',
+  description: 'Full Stack Developer portfolio showcasing projects, blog posts, and work experience.',
   keywords: [
-    'Sahil',
+    'Rahul Aitla',
     'Developer Portfolio',
+    'Full Stack Developer',
     'React Developer',
     'Next.js Developer',
-    'Frontend Developer',
-    'Full Stack Engineer',
+    'Python',
     'JavaScript',
     'TypeScript',
   ],
-  authors: [{ name: 'Sahil', url: 'https://github.com/sahilcodexx' }],
-  creator: 'Sahil',
+  authors: [{ name: 'Rahul Aitla', url: 'https://github.com/Rahul-Aitla' }],
+  creator: 'Rahul Aitla',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: siteUrl,
-    title: 'Sahil | Portfolio',
-    description: 'Web developer portfolio, showing blogs, experience, and custom tools',
-    siteName: 'Sahil Portfolio',
+    title: 'Rahul Aitla | Portfolio',
+    description: 'Full Stack Developer portfolio showcasing projects, blog posts, and work experience.',
+    siteName: 'Rahul Aitla Portfolio',
     images: [
       {
         url: '/og-image.webp',
         width: 1200,
         height: 630,
-        alt: 'Sahil | Portfolio',
+        alt: 'Rahul Aitla | Portfolio',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sahil | Portfolio',
-    description: 'Web developer portfolio, showing blogs, experience, and custom tools',
+    title: 'Rahul Aitla | Portfolio',
+    description: 'Full Stack Developer portfolio showcasing projects, blog posts, and work experience.',
     images: ['/og-image.webp'],
-    creator: '@sahilcodex',
+    creator: '@RahulA14530317',
   },
 
   manifest: '/site.webmanifest',

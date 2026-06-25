@@ -244,7 +244,7 @@ export function CommandMany({
             </CommandGroup>
           </CommandList>
           <CommandDialogFooter>
-            <h2 className="text-secondary">Sahilcodex</h2>
+            <h2 className="text-secondary">Rahul Aitla</h2>
             <div className="hidden sm:flex items-center gap-2">
               <span className="flex items-center gap-1 text-xs">
                 Go to page

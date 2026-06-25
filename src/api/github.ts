@@ -1,7 +1,7 @@
 const GITHUB_TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
-const GITHUB_USERNAME = 'sahilcodexx';
-const REPO_OWNER = 'sahilcodexx';
-const REPO_NAME = 'sahilcodex';
+const GITHUB_USERNAME = 'Rahul-Aitla';
+const REPO_OWNER = 'Rahul-Aitla';
+const REPO_NAME = 'portfolio';
 
 interface GitHubResponse {
   data?: {

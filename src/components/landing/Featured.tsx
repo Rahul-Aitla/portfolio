@@ -24,7 +24,7 @@ const Featured = ({ contributions = 0 }: { contributions?: number }) => {
           </div>
           <div className="inset-shadow bg-background/50 github-card-shadow relative flex items-center justify-center rounded-lg border border-black/10 p-2 px-5 py-2 backdrop-blur-sm sm:p-4 md:p-6 dark:border-white/10">
             <GitHubCalendar
-              username="sahilcodexx"
+              username="Rahul-Aitla"
               blockSize={7}
               blockMargin={5}
               colorScheme={currentTheme === 'dark' ? 'dark' : 'light'}

@@ -125,7 +125,7 @@
 
 ```bash
 git clone <repository-url>
-cd sahilcodex
+cd portfolio
 ```
 
 2. **Install dependencies**

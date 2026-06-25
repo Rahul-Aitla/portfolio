@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 
 const BASE_URL = 'https://page-views-api.ratneshc.com/api/v1';
-const SITE = 'sahilcodex.vercel.app';
+const SITE = 'rahul-aitla.vercel.app';
 const PATH = 'all_pages';
 
 export default function PageTracker() {

@@ -39,7 +39,7 @@ const Navbar = () => {
             >
               <div>
                 <Link href="/">
-                  <h2 className={`${pixelify.className} text-2xl uppercase`}>SAHIL</h2>
+                  <h2 className={`${pixelify.className} text-2xl uppercase`}>RAHUL</h2>
                 </Link>
               </div>
               <div className="flex items-center gap-4">

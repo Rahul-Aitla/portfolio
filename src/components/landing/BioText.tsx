@@ -10,30 +10,30 @@ const BioText = () => {
             <li>
               I'm a{' '}
               <b className="font-medium text-neutral-950 underline underline-offset-2 dark:text-neutral-100">
-                Design Engineer
+                Full Stack Developer
               </b>{' '}
-              obsessed with creating immersive digital experiences.
+              passionate about building scalable web applications and AI-powered tools.
             </li>
 
             <li>
-              I design and develop modern interfaces with{' '}
+              I build modern interfaces with{' '}
               <b className="font-medium text-neutral-950 underline underline-offset-2 dark:text-neutral-100">
-                React,TypeScript, Motion, and GSAP
+                React, Next.js, TypeScript, and Tailwind CSS
               </b>
-              , focusing on interaction, storytelling, and fluid user experiences.
+              , focusing on clean design and smooth user experiences.
             </li>
 
             <li>
-              I also work across the backend with{' '}
+              I work across the backend with{' '}
               <b className="font-medium text-neutral-950 underline underline-offset-2 dark:text-neutral-100">
-                Node.js, Bun, PostgreSQL, and MongoDB
+                Python, Node.js, Django, FastAPI, PostgreSQL, and Redis
               </b>{' '}
-              to build fast, scalable, full-stack applications.
+              to build fast, scalable full-stack applications.
             </li>
 
             <li>
-              I enjoy turning complex ideas into clean, engaging products that balance aesthetics
-              with performance.
+              I enjoy solving complex problems and turning ideas into polished products that make an
+              impact.
             </li>
           </ul>
         </div>

@@ -1,5 +1,5 @@
 export const footerConfig = {
-  developer: 'SahilCodex',
+  developer: 'Rahul Aitla',
   text: 'Design by',
   copyright: 'Build with Hands.',
 };

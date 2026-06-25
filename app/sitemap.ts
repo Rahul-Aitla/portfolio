@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { getMarkdownSlugs } from '@/lib/markdown';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sahilcodex.vercel.app';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rahul-aitla.vercel.app';
 
   // 1. Static URLs
   const staticRoutes = ['', '/blogs', '/projects', '/bookmarks', '/contact', '/gear', '/resume', '/work'];

@@ -33,7 +33,7 @@ const Hero = ({ stars = 0 }: { stars?: number }) => {
               <TooltipTrigger asChild>
                 <Button variant="ghost" size="custom" asChild>
                   <a
-                    href="https://github.com/sahilcodexx/minimal_portfolio"
+                    href="https://github.com/Rahul-Aitla/portfolio"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -54,13 +54,13 @@ const Hero = ({ stars = 0 }: { stars?: number }) => {
           </div>
 
           <h1 className="flex w-full flex-col text-2xl font-medium text-neutral-700 md:pb-0.5 md:text-3xl dark:text-neutral-50">
-            Sahil Singh
+            Rahul Aitla
           </h1>
           <span className="flex items-center gap-2 text-sm font-medium text-neutral-500/70 md:text-base dark:text-neutral-400">
-            Design Engineer.
+            Full Stack Developer.
           </span>
           <h2 className="text-xs font-medium text-neutral-500/70 dark:text-neutral-400">
-            20, Gujarat IND
+            21, Mumbai India
           </h2>
         </div>
       </div>
