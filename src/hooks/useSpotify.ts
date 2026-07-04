@@ -45,36 +45,7 @@ export function useSpotify(): UseSpotifyReturn {
   // when state updates, and to check if the track actually changed.
   const currentTrackRef = useRef<SpotifyTrack | null>(null);
 
-  // Attempt to fetch from official Spotify API route first
-  const fetchSpotifyAPIRoute = useCallback(async (): Promise<boolean> => {
-    try {
-      const res = await fetch('/api/spotify');
-      if (res.status === 200) {
-        const trackData = await res.json();
-        if (trackData && trackData.isConfigured === false) {
-          return false;
-        }
-        currentTrackRef.current = trackData;
-        setData(trackData);
-        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(trackData));
-        setError(null);
-        return true;
-      }
-      return false;
-    } catch {
-      return false;
-    }
-  }, []);
-
   const fetchLanyardData = useCallback(async () => {
-    // 1. Try Spotify API Route first (if server-side Spotify config is present)
-    const success = await fetchSpotifyAPIRoute();
-    if (success) {
-      setLoading(false);
-      return;
-    }
-
-    // 2. Fallback to Discord Lanyard API (our legacy / alternative route)
     if (!discordId) {
       setError('Discord ID not configured');
       setLoading(false);
@@ -169,9 +140,9 @@ export function useSpotify(): UseSpotifyReturn {
                 songUrl: doc.songUrl,
                 lastPlayedAt: doc.lastPlayedAt,
               };
-            } catch (err) {
-              console.error('Failed to fetch Spotify status from Appwrite:', err);
-            }
+        } catch (err: any) {
+          if (err.code !== 404) console.error('Failed to fetch Spotify status from Appwrite:', err);
+        }
           }
 
           if (appwriteTrack) {
@@ -232,8 +203,8 @@ export function useSpotify(): UseSpotifyReturn {
             songUrl: doc.songUrl,
             lastPlayedAt: doc.lastPlayedAt,
           };
-        } catch (err) {
-          console.error('Failed to fetch Spotify status from Appwrite on error fallback:', err);
+        } catch (err: any) {
+          if (err.code !== 404) console.error('Failed to fetch Spotify status from Appwrite on error fallback:', err);
         }
       }
 
@@ -274,7 +245,7 @@ export function useSpotify(): UseSpotifyReturn {
     } finally {
       setLoading(false);
     }
-  }, [discordId, databaseId, spotifyCollectionId, fetchSpotifyAPIRoute]);
+  }, [discordId, databaseId, spotifyCollectionId]);
 
   useEffect(() => {
     fetchLanyardData();

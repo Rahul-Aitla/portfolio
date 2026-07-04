@@ -8,7 +8,7 @@ import { ArrowUpRight } from 'lucide-react';
 const SocialLinks = () => {
   const items = [
     {
-      name: 'Social Links',
+      name: 'Resume',
       href: '/resume',
       isExternal: false,
       icon: <Cv />,
@@ -39,7 +39,7 @@ const SocialLinks = () => {
     },
     {
       name: 'Email',
-      href: 'mailto:aitlarahul@gmail.com',
+      href: 'https://mail.google.com/mail/?view=cm&fs=1&to=aitlarahul@gmail.com',
       isExternal: true,
       icon: '/images/gmail.png',
     },
@@ -88,7 +88,12 @@ const SocialLinks = () => {
                       <div className="pointer-events-none absolute inset-0 rounded-lg inset-ring-1 inset-ring-black/10 dark:inset-ring-white/15"></div>
                     </div>
                     <h3 className="ml-0 md:ml-3 flex-1 truncate text-sm font-medium text-neutral-700 transition-colors duration-200 group-hover:text-neutral-900 dark:text-neutral-300 dark:group-hover:text-neutral-100">
-                      {item.isExternal ? (
+                      {item.href.startsWith('mailto:') ? (
+                        <a href={item.href}>
+                          <span className="absolute inset-0" aria-hidden="true" />
+                          {item.name}
+                        </a>
+                      ) : item.isExternal ? (
                         <a href={item.href} target="_blank" rel="noopener">
                           <span className="absolute inset-0" aria-hidden="true" />
                           {item.name}

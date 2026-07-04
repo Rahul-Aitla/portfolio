@@ -1,11 +1,16 @@
 "use client";
 
 import React from 'react';
+import dynamic from 'next/dynamic';
 import Container from '../layouts/Container';
 import SectionHeading from '../common/SectionHeading';
-import { GitHubCalendar } from 'react-github-calendar';
 import { useTheme } from './theme-provider';
 import RepeatSeparator from '../ui/repeat-separator';
+
+const GitHubCalendar = dynamic(
+  () => import('react-github-calendar').then((mod) => mod.GitHubCalendar),
+  { ssr: false }
+);
 
 const Featured = ({ contributions = 0 }: { contributions?: number }) => {
   const { theme } = useTheme();
