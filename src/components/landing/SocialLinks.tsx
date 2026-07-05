@@ -1,11 +1,15 @@
+'use client';
+
 import SendIcon from '@/components/icons/social/SendIcon';
 import Cv from '@/components/icons/social/Cv';
 
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowUpRight } from 'lucide-react';
+import { useIsMobile } from '@/hooks/useIsMobile';
 
 const SocialLinks = () => {
+  const isMobile = useIsMobile();
   const items = [
     {
       name: 'Resume',
@@ -39,8 +43,10 @@ const SocialLinks = () => {
     },
     {
       name: 'Email',
-      href: 'https://mail.google.com/mail/?view=cm&fs=1&to=aitlarahul@gmail.com',
-      isExternal: true,
+      href: isMobile
+        ? 'mailto:aitlarahul@gmail.com'
+        : 'https://mail.google.com/mail/?view=cm&fs=1&to=aitlarahul@gmail.com',
+      isExternal: !isMobile,
       icon: '/images/gmail.png',
     },
   ];
