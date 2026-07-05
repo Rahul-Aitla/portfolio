@@ -60,16 +60,17 @@ export const fetchGitHubContributions = async (): Promise<number> => {
 };
 
 export const fetchRepoStars = async (): Promise<number> => {
-  if (!GITHUB_TOKEN) {
-    return 0;
-  }
-
   try {
+    const headers: Record<string, string> = {
+      Accept: 'application/vnd.github.v3+json',
+    };
+
+    if (GITHUB_TOKEN) {
+      headers.Authorization = `Bearer ${GITHUB_TOKEN}`;
+    }
+
     const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`, {
-      headers: {
-        Authorization: `Bearer ${GITHUB_TOKEN}`,
-        Accept: 'application/vnd.github.v3+json',
-      },
+      headers,
     });
 
     if (!response.ok) {
