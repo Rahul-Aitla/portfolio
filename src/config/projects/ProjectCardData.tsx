@@ -8,7 +8,7 @@ export const ProjectCardData = [
     title: 'Animastudio',
     subheading: 'AI-Powered Text-to-Animation Engine',
     img: {
-      src: '/projects/project1.avif',
+      src: '/projects/project1-v2.jpg',
       alt: 'Animastudio AI animation engine project',
       width: 1920,
       height: 1080,
