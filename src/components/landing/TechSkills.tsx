@@ -2,7 +2,6 @@ import Container from '../layouts/Container';
 import SectionHeading from '../common/SectionHeading';
 import {
   ReactIcon,
-  Bun,
   NodeJs,
   JavaScript,
   MongoDB,
@@ -16,19 +15,19 @@ import {
   TypeScript,
   Vite,
   Shadcn,
-  LLM,
-  Php,
-  Baseui,
   Photoshop,
   Git,
   Docker,
-  Bootstrap,
   Python,
   Css,
   FramerMotion,
   Html,
   ReactNavigation,
   Npm,
+  Groq,
+  Deepgram,
+  LiveKit,
+  BullMQ,
 } from '@/lib/techIcons';
 import RepeatSeparator from '../ui/repeat-separator';
 
@@ -99,11 +98,6 @@ const SkillsList = [
     href: 'https://nextjs.org/',
   },
   {
-    title: 'Bun',
-    icon: <Bun />,
-    href: 'https://bun.sh/',
-  },
-  {
     title: 'NPM',
     icon: <Npm />,
     href: 'https://www.npmjs.com/',
@@ -167,19 +161,24 @@ const SkillsList = [
     href: 'https://ui.shadcn.com/',
   },
   {
-    title: 'LLM',
-    icon: <LLM />,
-    href: 'https://en.wikipedia.org/wiki/Large_language_model',
+    title: 'Groq',
+    icon: <Groq />,
+    href: 'https://groq.com/',
   },
   {
-    title: 'PHP',
-    icon: <Php />,
-    href: 'https://www.php.net/',
+    title: 'Deepgram',
+    icon: <Deepgram />,
+    href: 'https://deepgram.com/',
   },
   {
-    title: 'BaseUI',
-    icon: <Baseui />,
-    href: 'https://baseweb.design/',
+    title: 'LiveKit',
+    icon: <LiveKit />,
+    href: 'https://livekit.io/',
+  },
+  {
+    title: 'BullMQ',
+    icon: <BullMQ />,
+    href: 'https://bullmq.io/',
   },
   {
     title: 'Photoshop',
@@ -195,11 +194,6 @@ const SkillsList = [
     title: 'Docker',
     icon: <Docker />,
     href: 'https://www.docker.com/',
-  },
-  {
-    title: 'Bootstrap',
-    icon: <Bootstrap />,
-    href: 'https://getbootstrap.com/',
   },
   {
     title: 'Python',

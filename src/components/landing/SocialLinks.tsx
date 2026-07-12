@@ -37,7 +37,7 @@ const SocialLinks = () => {
     },
     {
       name: 'X (Twitter)',
-      href: 'https://x.com/RahulA14530317',
+      href: 'https://x.com/RahulAitla',
       isExternal: true,
       icon: '/images/x.png',
     },

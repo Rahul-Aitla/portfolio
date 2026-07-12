@@ -1,7 +1,6 @@
 import React, { ReactNode } from 'react';
 import Image from 'next/image';
 import CopyButton from '@/components/ui/copy-button';
-import Bun from '@/components/icons/tech/Bun';
 import { ZoomableImage } from '@/components/projects/ZoomableImage';
 import JavaScript from '@/components/icons/tech/JavaScript';
 import MongoDB from '@/components/icons/tech/MongoDB';
@@ -32,8 +31,6 @@ const TechnologyComponents: Record<string, () => React.ReactNode> = {
   postgresql: PostgreSQL,
   Prisma: Prisma,
   prisma: Prisma,
-  Bun: Bun,
-  bun: Bun,
 };
 
 // Technology badge

@@ -1,5 +1,4 @@
 import ReactIcon from "@/components/icons/tech/ReactIcon";
-import Bun from "@/components/icons/tech/Bun";
 import NodeJs from "@/components/icons/tech/NodeJS";
 import JavaScript from "@/components/icons/tech/JavaScript";
 import MongoDB from "@/components/icons/tech/MongoDB";
@@ -21,19 +20,18 @@ import Mail from "@/components/icons/social/Mail";
 import Website from "@/components/icons/social/Website";
 import X from "@/components/icons/social/X";
 import Shadcn from "@/components/icons/tech/Shadcn";
-import LLM from "@/components/icons/tech/LLM";
-import Php from "@/components/icons/tech/Php";
 import Photoshop from "@/components/icons/tech/Photoshop";
-import Baseui from "@/components/icons/tech/Baseui";
 import Git from "@/components/icons/tech/Git";
 import Docker from "@/components/icons/tech/Docker";
 import ReactNavigation from "@/components/icons/tech/ReactNavigation";
-import { Bootstrap } from "@/components/icons/tech/BootStrap";
 import { Python } from "@/components/icons/tech/Python";
 import Npm from "@/components/icons/tech/Npm";
+import Groq from "@/components/icons/tech/Groq";
+import Deepgram from "@/components/icons/tech/Deepgram";
+import LiveKit from "@/components/icons/tech/LiveKit";
+import BullMQ from "@/components/icons/tech/BullMQ";
 export {
   ReactIcon,
-  Bun,
   NodeJs,
   JavaScript,
   MongoDB,
@@ -55,14 +53,14 @@ export {
   Website,
   X,
   Shadcn,
-  LLM,
-  Php,
-  Baseui,
   Photoshop,
   Git,
   Docker,
   ReactNavigation,
-  Bootstrap,
   Python,
   Npm,
+  Groq,
+  Deepgram,
+  LiveKit,
+  BullMQ,
 };

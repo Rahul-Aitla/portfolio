@@ -10,30 +10,42 @@ const BioText = () => {
             <li>
               I'm a{' '}
               <b className="font-medium text-neutral-950 underline underline-offset-2 dark:text-neutral-100">
-                Full Stack Developer
+                Full Stack & AI Engineer
               </b>{' '}
-              passionate about building scalable web applications and AI-powered tools.
+              who builds automation systems and AI-powered products, not just interfaces.
             </li>
 
             <li>
-              I build modern interfaces with{' '}
+              I work with{' '}
               <b className="font-medium text-neutral-950 underline underline-offset-2 dark:text-neutral-100">
-                React, Next.js, TypeScript, and Tailwind CSS
-              </b>
-              , focusing on clean design and smooth user experiences.
-            </li>
-
-            <li>
-              I work across the backend with{' '}
-              <b className="font-medium text-neutral-950 underline underline-offset-2 dark:text-neutral-100">
-                Python, Node.js, Django, FastAPI, PostgreSQL, and Redis
+                Deepgram, LLMs, and LiveKit
               </b>{' '}
-              to build fast, scalable full-stack applications.
+              to ship voice AI agents and real-time conversation systems, backed by{' '}
+              <b className="font-medium text-neutral-950 underline underline-offset-2 dark:text-neutral-100">
+                Python, Next.js, Node.js, FastAPI, and PostgreSQL
+              </b>.
             </li>
 
             <li>
-              I enjoy solving complex problems and turning ideas into polished products that make an
-              impact.
+              I've shipped production integrations at{' '}
+              <b className="font-medium text-neutral-950 underline underline-offset-2 dark:text-neutral-100">
+                Assista
+              </b>{' '}
+              (100+ third-party app integrations), built new integrations, and resolved production
+              issues across OAuth and API execution.
+            </li>
+
+            <li>
+              I care less about &quot;looks like a demo&quot; and more about &quot;actually works
+              under load,&quot; and I build in public on{' '}
+              <b className="font-medium text-neutral-950 underline underline-offset-2 dark:text-neutral-100">
+                X
+              </b>{' '}
+              and{' '}
+              <b className="font-medium text-neutral-950 underline underline-offset-2 dark:text-neutral-100">
+                LinkedIn
+              </b>{' '}
+              as I go.
             </li>
           </ul>
         </div>

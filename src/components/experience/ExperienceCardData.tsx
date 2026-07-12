@@ -23,7 +23,7 @@ const ExperienceCardData: Experience[] = [
           start: "Dec 2025",
           end: "March 2026",
         },
-        duration: "4m",
+        duration: "4 Months",
         location: "Delaware US (Remote)",
         description: `Contributed to an AI agent integration platform supporting 100+ third-party applications, building and maintaining API integrations, authentication flows, and function schemas.
 Developed and enhanced integrations for Trello, HubSpot, Jira, ClickUp, and X (Twitter), resolving production issues across OAuth, API execution, and configuration validation.
@@ -80,7 +80,7 @@ Tested and validated end-to-end workflows across multiple third-party integratio
           start: "April 2025",
           end: "October 2025",
         },
-        duration: "7m",
+        duration: "6 Months",
         location: "Mumbai (Hybrid)",
         description: `Contributed across multiple products using React, Next.js, Node.js, and Django for performance optimization.
 Optimized UI Responsiveness and Accessibility across the product suite.
@@ -131,7 +131,7 @@ Collaborated with backend lead to integrate APIs and deploy applications on Digi
           start: "Feb 2025",
           end: "March 2025",
         },
-        duration: "2m",
+        duration: "1 Month",
         location: "Bangalore (Remote)",
         description: `Redesigned web interfaces in collaboration with mentor.
 Developed scalable dashboards using Chart.js and Tailwind CSS, enabling real-time data visualization.`,
