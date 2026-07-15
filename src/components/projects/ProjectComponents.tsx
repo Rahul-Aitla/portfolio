@@ -10,6 +10,26 @@ import PostgreSQL from '@/components/icons/tech/PostgreSQL';
 import Prisma from '@/components/icons/tech/Prisma';
 import ReactIcon from '@/components/icons/tech/ReactIcon';
 import TypeScript from '@/components/icons/tech/TypeScript';
+import Docker from '@/components/icons/tech/Docker';
+import { Python } from '@/components/icons/tech/Python';
+import ExpressJs from '@/components/icons/tech/ExpressJs';
+import TailwindCss from '@/components/icons/tech/TailwindCss';
+import Groq from '@/components/icons/tech/Groq';
+import Deepgram from '@/components/icons/tech/Deepgram';
+import LiveKit from '@/components/icons/tech/LiveKit';
+import BullMQ from '@/components/icons/tech/BullMQ';
+import FastAPI from '@/components/icons/tech/FastAPI';
+import Redis from '@/components/icons/tech/Redis';
+import Celery from '@/components/icons/tech/Celery';
+import Playwright from '@/components/icons/tech/Playwright';
+import Manim from '@/components/icons/tech/Manim';
+import SocketIO from '@/components/icons/tech/SocketIO';
+import SQLite from '@/components/icons/tech/SQLite';
+import GCP from '@/components/icons/tech/GCP';
+import NLP from '@/components/icons/tech/NLP';
+import QR from '@/components/icons/tech/QR';
+import Swiper from '@/components/icons/tech/Swiper';
+import Gemini from '@/components/icons/tech/Gemini';
 import { Badge } from '@/components/ui/badge';
 
 // Technology mapping
@@ -31,6 +51,48 @@ const TechnologyComponents: Record<string, () => React.ReactNode> = {
   postgresql: PostgreSQL,
   Prisma: Prisma,
   prisma: Prisma,
+  Docker: Docker,
+  docker: Docker,
+  Python: Python,
+  python: Python,
+  Express: ExpressJs,
+  express: ExpressJs,
+  'Tailwind CSS': TailwindCss,
+  tailwindcss: TailwindCss,
+  Groq: Groq,
+  groq: Groq,
+  Deepgram: Deepgram,
+  deepgram: Deepgram,
+  LiveKit: LiveKit,
+  livekit: LiveKit,
+  BullMQ: BullMQ,
+  bullmq: BullMQ,
+  FastAPI: FastAPI,
+  fastapi: FastAPI,
+  Redis: Redis,
+  redis: Redis,
+  Celery: Celery,
+  celery: Celery,
+  Playwright: Playwright,
+  playwright: Playwright,
+  Manim: Manim,
+  manim: Manim,
+  'Socket.IO': SocketIO,
+  socketio: SocketIO,
+  WebRTC: SocketIO,
+  webrtc: SocketIO,
+  GCP: GCP,
+  gcp: GCP,
+  SQLite: SQLite,
+  sqlite: SQLite,
+  NLP: NLP,
+  nlp: NLP,
+  QR: QR,
+  qr: QR,
+  Swiper: Swiper,
+  swiper: Swiper,
+  Gemini: Gemini,
+  gemini: Gemini,
 };
 
 // Technology badge
