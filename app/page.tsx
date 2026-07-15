@@ -6,6 +6,7 @@ import Featured from '@/components/landing/Featured';
 import Blog from '@/components/blog/Blog';
 import CTA from '@/components/landing/CTA';
 import Setup from '@/components/landing/Setup';
+import Patatap from '@/components/landing/Patatap';
 import { getMarkdownSlugs, getMarkdownContent } from '@/lib/markdown';
 import { fetchRepoStars, fetchGitHubContributions } from '@/api/github';
 import TopBanner from '@/components/ui/top-banner';
@@ -123,6 +124,8 @@ export default async function Home() {
       <section id={sectionIds.setup}>
         <Setup />
       </section>
+
+      <Patatap />
     </main>
   );
 }
