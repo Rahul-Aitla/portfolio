@@ -143,7 +143,7 @@ export const ProjectCardData = [
     title: 'Livo',
     subheading: 'AI Pronunciation Analyzer',
     img: {
-      src: '/projects/project.avif',
+      src: '/projects/livo.avif',
       alt: 'Livo AI pronunciation analyzer project',
       width: 1920,
       height: 1080,
@@ -383,7 +383,7 @@ export const ProjectCardData = [
     title: 'Sundown-Studio',
     subheading: 'Professional Landing Page',
     img: {
-      src: '/projects/project3.avif',
+      src: '/projects/sundown.avif',
       alt: 'Sundown-Studio brand landing page project',
       width: 1920,
       height: 1080,
@@ -427,7 +427,7 @@ export const ProjectCardData = [
     title: 'Sidcup Golf',
     subheading: 'Golf Club Website',
     img: {
-      src: '/projects/project2.avif',
+      src: '/projects/sidcup.avif',
       alt: 'Sidcup Golf club website project',
       width: 1920,
       height: 1080,
@@ -471,7 +471,7 @@ export const ProjectCardData = [
     title: 'TDC',
     subheading: 'AI-Powered Matchmaking Operations Hub',
     img: {
-      src: '/projects/project.avif',
+      src: '/projects/tdc.avif',
       alt: 'TDC matchmaking operations hub project',
       width: 1920,
       height: 1080,
@@ -510,7 +510,7 @@ export const ProjectCardData = [
     title: 'ReDraft',
     subheading: 'Version-Controlled CMS',
     img: {
-      src: '/projects/project1-v2.jpg',
+      src: '/projects/redraft.avif',
       alt: 'ReDraft CMS project',
       width: 1920,
       height: 1080,
@@ -564,7 +564,7 @@ export const ProjectCardData = [
     title: 'TOTEM',
     subheading: 'Voice-to-Structured AI Prompt Pipeline',
     img: {
-      src: '/projects/project2.avif',
+      src: '/projects/totem.avif',
       alt: 'TOTEM voice-to-structured prompt pipeline project',
       width: 1920,
       height: 1080,

@@ -1,7 +1,7 @@
 ---
 title: 'Building a Voice-to-Structured-Prompt Pipeline with Deepgram, Gemini, and pgvector'
 description: 'How I built TOTEM — a system that converts raw voice input into structured, token-efficient AI prompts using speech-to-text, intent extraction, memory retrieval, and prompt compression.'
-image: '/blogimage/totem.jpg'
+image: '/blogimage/voice-to-text.avif'
 tags: ['Deepgram', 'Gemini', 'Voice AI', 'Prompt Engineering', 'pgvector', 'FastAPI', 'Next.js']
 date: '2026-07-12'
 isPublished: true

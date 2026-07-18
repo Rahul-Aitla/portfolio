@@ -1,7 +1,7 @@
 ---
 title: 'Building a Voice AI Pronunciation Analyzer with Deepgram and Groq'
 description: 'A hands-on walkthrough of building an AI-powered pronunciation analysis tool using Deepgram Nova-2 for speech-to-text and Groq Llama for LLM-powered pronunciation scoring and feedback.'
-image: '/blogimage/voice-ai.jpg'
+image: '/blogimage/voice.avif'
 tags: ['Deepgram', 'Groq', 'Voice AI', 'LLM', 'Speech-to-Text', 'Next.js']
 date: '2026-07-15'
 isPublished: true

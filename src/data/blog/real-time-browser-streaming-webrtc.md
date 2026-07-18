@@ -1,7 +1,7 @@
 ---
 title: 'Real-Time Browser Streaming with WebRTC, Playwright, and Docker'
 description: 'How I built a real-time remote browser platform that streams and controls containerized headless Chromium instances using WebRTC, Playwright, Docker, and the Chrome DevTools Protocol.'
-image: '/blogimage/webrtc-streaming.jpg'
+image: '/blogimage/browser-streaming.avif'
 tags: ['WebRTC', 'Playwright', 'Docker', 'Browser Automation', 'Real-Time', 'CDP']
 date: '2026-07-13'
 isPublished: true

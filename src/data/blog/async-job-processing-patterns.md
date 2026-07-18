@@ -1,7 +1,7 @@
 ---
 title: 'Async Job Processing Patterns with BullMQ, Redis, and Celery'
 description: 'A practical guide to building resilient async job processing systems using BullMQ with Redis for Node.js workers and Celery for Python workers, drawn from real projects.'
-image: '/blogimage/async-jobs.jpg'
+image: '/blogimage/async-job.avif'
 tags: ['BullMQ', 'Redis', 'Celery', 'Job Queues', 'Python', 'Node.js', 'Backend']
 date: '2026-07-14'
 isPublished: true
