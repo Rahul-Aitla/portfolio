@@ -16,7 +16,7 @@ export const ProjectCardData = [
     title: 'Animastudio',
     subheading: 'AI-Powered Text-to-Animation Engine',
     img: {
-      src: '/projects/project1-v2.jpg',
+      src: '/projects/project3.avif',
       alt: 'Animastudio AI animation engine project',
       width: 1920,
       height: 1080,
@@ -280,7 +280,7 @@ export const ProjectCardData = [
     title: 'Agency',
     subheading: 'Design Request Triage Bot',
     img: {
-      src: '/projects/project.avif',
+      src: '/projects/project2.avif',
       alt: 'Agency design request triage bot project',
       width: 1920,
       height: 1080,
