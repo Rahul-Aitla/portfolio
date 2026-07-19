@@ -1,7 +1,7 @@
 ---
 title: "Livo - AI Pronunciation Analyzer"
 description: "Upload an English speech recording and receive AI-powered pronunciation feedback, confidence analysis, and actionable improvement suggestions using Deepgram and Groq."
-image: "/projects/project.avif"
+image: "/projects/livo.avif"
 technologies:
   - Next.js
   - React

@@ -1,7 +1,7 @@
 ---
 title: "Remote Browser Control - Real-Time Browser Platform"
 description: "A real-time browser platform that streams and controls containerized headless Chromium instances using WebRTC, Docker, and Playwright."
-image: "/projects/project2.avif"
+image: "/projects/remote-browser.avif"
 technologies:
   - Next.js
   - Node.js

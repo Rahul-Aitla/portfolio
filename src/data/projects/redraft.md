@@ -1,7 +1,7 @@
 ---
 title: "ReDraft - Version-Controlled CMS"
 description: "A minimalist, professional CMS designed for authors who value version control, focus, and permanence. Built with Node.js, Express, PostgreSQL, and React."
-image: "/projects/project1-v2.jpg"
+image: "/projects/redraft.avif"
 technologies:
   - Node.js
   - TypeScript

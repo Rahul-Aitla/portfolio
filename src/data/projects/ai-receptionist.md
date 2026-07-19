@@ -1,7 +1,7 @@
 ---
 title: "AI Receptionist - Voice AI for Healthcare"
 description: "An AI-powered voice receptionist for Dr. VJ's Cardiology Clinic. Patients call in and speak with Laura, a virtual medical assistant that handles appointments and inquiries through natural voice conversation."
-image: "/projects/project.avif"
+image: "/projects/ai-receptionist.avif"
 technologies:
   - LiveKit
   - Deepgram

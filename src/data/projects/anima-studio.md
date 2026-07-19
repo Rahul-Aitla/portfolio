@@ -1,7 +1,7 @@
 ---
 title: "Animastudio - AI-Powered Text-to-Animation Engine"
 description: "A system that converts structured text into mathematical/educational animations using Manim, NLP-based parsing, and an automated Docker rendering pipeline."
-image: "/projects/project1.avif"
+image: "/projects/anima.avif"
 technologies:
   - Python
   - Manim

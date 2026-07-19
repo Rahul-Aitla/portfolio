@@ -1,7 +1,7 @@
 ---
 title: "Agency - Design Request Triage Bot"
 description: "An automated email-based system that triages design requests for creative agencies. Reads client emails, extracts requirements using AI, and routes them to the right team member."
-image: "/projects/project2.avif"
+image: "/projects/agency.avif"
 technologies:
   - Node.js
   - TypeScript

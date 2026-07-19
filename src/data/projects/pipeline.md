@@ -1,7 +1,7 @@
 ---
 title: "Pipeline - Transaction Processing API"
 description: "A backend API for processing dirty CSV financial transactions with LLM-powered classification, anomaly detection, and async job processing."
-image: "/projects/project2.avif"
+image: "/projects/pipeline.avif"
 technologies:
   - FastAPI
   - Python

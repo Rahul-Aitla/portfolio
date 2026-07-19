@@ -1,7 +1,7 @@
 ---
 title: "TOTEM - Voice-to-Structured AI Prompt Pipeline"
 description: "Converts raw voice input into structured, optimized AI prompts using speech-to-text, intent extraction, memory retrieval, and prompt compression."
-image: "/projects/project2.avif"
+image: "/projects/totem.avif"
 technologies:
   - Next.js
   - Python

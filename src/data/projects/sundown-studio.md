@@ -1,7 +1,7 @@
 ---
 title: "Sundown-Studio - Professional Landing Page"
 description: "A visually rich brand landing page built with Swiper.js, GSAP, and Locomotive JS — featuring smooth parallax scrolling and immersive full-screen slider transitions."
-image: "/projects/project3.avif"
+image: "/projects/sundown.avif"
 technologies:
   - HTML
   - CSS

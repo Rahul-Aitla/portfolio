@@ -1,7 +1,7 @@
 ---
 title: "ShareIt - Temporary File Transfer"
 description: "A loginless, session-based file transfer application for quickly sharing files from mobile to desktop using QR codes. No signup required."
-image: "/projects/project3.avif"
+image: "/projects/shareit.avif"
 technologies:
   - Next.js
   - TypeScript

@@ -1,7 +1,7 @@
 ---
 title: "TDC - AI-Powered Matchmaking Operations Hub"
 description: "A CRM-style internal tool for matrimonial matchmaking teams combining deterministic compatibility logic with advanced AI reasoning. Built with Next.js and TypeScript."
-image: "/projects/project.avif"
+image: "/projects/tdc.avif"
 technologies:
   - Next.js
   - TypeScript

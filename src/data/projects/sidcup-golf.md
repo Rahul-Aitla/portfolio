@@ -1,7 +1,7 @@
 ---
 title: "Sidcup Golf - Golf Club Website"
 description: "A professional golf club website built with GSAP ScrollTrigger and Swiper.js — featuring cinematic scroll-driven animations and a modern responsive design."
-image: "/projects/project2.avif"
+image: "/projects/sidcup.avif"
 technologies:
   - HTML
   - CSS
